@@ -176,7 +176,6 @@ syn region orcaKeywordLine matchgroup=orcaKeywordLineMarker start=/^!/ end=/$/ t
 hi def link orcaKeywordLineMarker Keyword
 
 syn keyword orcaKeywordLineKeyword contained
-
   \ 3-21g
   \ 3-21gsp
   \ 4-22gsp
