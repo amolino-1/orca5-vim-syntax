@@ -179,11 +179,14 @@ syn keyword orcaKeywordLineKeyword contained
   \ 3-21g
   \ 3-21gsp
   \ 4-22gsp
+  \ 6-31++G**
   \ 6-31++g(2d,2p)
   \ 6-31++g(2d,p)
   \ 6-31++g(2df,2p)
   \ 6-31++g(2df,2pd)
   \ 6-31++g(d,p)
+  \ 6-31+G*
+  \ 6-31+G**
   \ 6-31+g(2d)
   \ 6-31+g(2d,2p)
   \ 6-31+g(2d,p)
@@ -198,6 +201,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-311++G(2df,2pd)
   \ 6-311++G(3df,3pd)
   \ 6-311++G(d,p)
+  \ 6-311++G**
   \ 6-311+G(2d)
   \ 6-311+G(2d,2p)
   \ 6-311+G(2d,p)
@@ -209,6 +213,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-311+G(3df,3pd)
   \ 6-311+G(d)
   \ 6-311+G(d,p)
+  \ 6-311+G*
+  \ 6-311+G**
   \ 6-311G
   \ 6-311G(2d)
   \ 6-311G(2d,2p)
@@ -220,6 +226,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-311G(3df,3pd)
   \ 6-311G(d)
   \ 6-311G(d,p)
+  \ 6-311G*
+  \ 6-311G**
   \ 6-311g
   \ 6-31g
   \ 6-31g(2d)
@@ -230,6 +238,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-31g(2df,2pd)
   \ 6-31g(d)
   \ 6-31g(d,p)
+  \ 6-31g*
+  \ 6-31g**
   \ allpop
   \ alpb(thf)
   \ alpb(toluene)
@@ -561,6 +571,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ m062x
   \ m06l
   \ m6-31g
+  \ m6-31g*
   \ ma-def2-QZVPP
   \ ma-def2-TZVP
   \ ma-def2-TZVP(-f)
