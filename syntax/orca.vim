@@ -179,14 +179,12 @@ syn keyword orcaKeywordLineKeyword contained
   \ 3-21g
   \ 3-21gsp
   \ 4-22gsp
-  \ 6-31++g**
   \ 6-31++g(2d,2p)
   \ 6-31++g(2d,p)
   \ 6-31++g(2df,2p)
   \ 6-31++g(2df,2pd)
   \ 6-31++g(d,p)
-  \ 6-31+g*
-  \ 6-31+g**
+  \ 6-31++g**
   \ 6-31+g(2d)
   \ 6-31+g(2d,2p)
   \ 6-31+g(2d,p)
@@ -195,6 +193,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-31+g(2df,2pd)
   \ 6-31+g(d)
   \ 6-31+g(d,p)
+  \ 6-31+g*
+  \ 6-31+g**
   \ 6-311++g(2d,2p)
   \ 6-311++g(2d,p)
   \ 6-311++g(2df,2p)
@@ -228,7 +228,6 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-311g(d,p)
   \ 6-311g*
   \ 6-311g**
-  \ 6-311g
   \ 6-31g
   \ 6-31g(2d)
   \ 6-31g(2d,2p)
@@ -240,9 +239,39 @@ syn keyword orcaKeywordLineKeyword contained
   \ 6-31g(d,p)
   \ 6-31g*
   \ 6-31g**
+  \ aim
+  \ allowrhf
   \ allpop
+  \ alpb(acetone)
+  \ alpb(acetonitrile)
+  \ alpb(aniline)
+  \ alpb(benzaldehyde)
+  \ alpb(benzene)
+  \ alpb(ch2cl2)
+  \ alpb(chcl3)
+  \ alpb(cs2)
+  \ alpb(dioxane)
+  \ alpb(dmf)
+  \ alpb(dmso)
+  \ alpb(ethanol)
+  \ alpb(ether)
+  \ alpb(ethylacetate)
+  \ alpb(furane)
+  \ alpb(h2o)
+  \ alpb(hexandecane)
+  \ alpb(hexane)
+  \ alpb(methanol)
+  \ alpb(nitromethane)
+  \ alpb(octanol(wet))
+  \ alpb(octanol)
+  \ alpb(phenol)
   \ alpb(thf)
   \ alpb(toluene)
+  \ alpb(water)
+  \ am1
+  \ amfi
+  \ amfi-a
+  \ angs
   \ ano-pv5z
   \ ano-pv6z
   \ ano-pvdz
@@ -336,6 +365,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ aug-pcsseg-3
   \ aug-pcsseg-4
   \ autoaux
+  \ autostart
   \ b1lyp
   \ b1p
   \ b2gp-plyp
@@ -353,8 +383,13 @@ syn keyword orcaKeywordLineKeyword contained
   \ bhandhlyp
   \ bhlyp
   \ blyp
+  \ bohrs
   \ bp
   \ bp86
+  \ bt-pno-eom-ccsd
+  \ bt-pno-ih-fsmr-ccsd
+  \ bt-pno-steom-ccsd
+  \ c-pcm
   \ cam-b3lyp
   \ caspt2
   \ caspt2k
@@ -446,7 +481,20 @@ syn keyword orcaKeywordLineKeyword contained
   \ cc-pwcvtz-pp
   \ cc-pwcvtz-pp/c
   \ cc-pwcvtz/c
+  \ ccsd
+  \ ccsd(t)
+  \ ccsd(t)-f12d/ri
+  \ ccsd(t)f12
+  \ ccsd-f12
+  \ ccsd-f12/ri
+  \ ccsd-f12d/ri
+  \ cdouble
+  \ cepa/1
+  \ cfloat
+  \ cheapints
+  \ cim
   \ conv
+  \ copt
   \ cpcm
   \ cpcm(acetone)
   \ cpcm(acetonitrile)
@@ -466,12 +514,20 @@ syn keyword orcaKeywordLineKeyword contained
   \ cpcm(thf)
   \ cpcm(toluene)
   \ cpcm(water)
+  \ cpf/1
   \ d2
   \ d3bj
   \ d3zero
   \ d4
   \ d95
   \ d95p
+  \ damp
+  \ dcd-cas(2)
+  \ decontract
+  \ decontractauxc
+  \ decontractauxj
+  \ decontractauxjk
+  \ decontractbas
   \ def2-qzvp
   \ def2-qzvp/c
   \ def2-qzvpd
@@ -499,29 +555,50 @@ syn keyword orcaKeywordLineKeyword contained
   \ defgrid1
   \ defgrid2
   \ defgrid3
+  \ dft
   \ dhf-qzvp
   \ dhf-qzvpp
   \ dhf-sv(p)
   \ dhf-svp
   \ dhf-tzvp
   \ dhf-tzvpp
+  \ diis
+  \ direct
+  \ dkh
   \ dkh-def2-qzvpp
   \ dkh-def2-sv(p)
   \ dkh-def2-svp
   \ dkh-def2-tzvp
   \ dkh-def2-tzvp(-f)
   \ dkh-def2-tzvpp
+  \ dkh2
   \ dlpno-b2plyp
   \ dlpno-ccsd
   \ dlpno-ccsd(t)
+  \ dlpno-ccsd(t)-f12
+  \ dlpno-ccsd(t)-f12/d
   \ dlpno-ccsd(t1)
+  \ dlpno-ccsd(t1)-f12
+  \ dlpno-ccsd(t1)-f12/d
+  \ dlpno-ccsd-f12
+  \ dlpno-ccsd-f12/d
   \ dlpno-dsd-pbeb95
+  \ dlpno-hfc1
+  \ dlpno-hfc2
   \ dlpno-mp2
+  \ dlpno-mp2-f12
+  \ dlpno-mp2-f12/d
   \ dlpno-nevpt2
   \ dlpno-scs-mp2
+  \ dmrg
+  \ double
   \ dsd-blyp
   \ dsd-pbeb95
   \ dsd-pbep86
+  \ easyconv
+  \ energy
+  \ engrad
+  \ eom-ccsd
   \ epr-ii
   \ epr-iii
   \ esd(abs)
@@ -532,9 +609,23 @@ syn keyword orcaKeywordLineKeyword contained
   \ extrapolate(2/3,def2)
   \ extrapolate(2/3/4,def2)
   \ extrapolate(3)
+  \ extremescf
+  \ fic-acpf
+  \ fic-aqcc
+  \ fic-cepa0
+  \ fic-ddci3
+  \ fic-mrcc
+  \ fic-mrci
   \ fic-nevpt2
+  \ float
   \ fod
+  \ forceconv
+  \ fracocc
   \ freq
+  \ frozencore
+  \ gdiis-copt
+  \ gdiis-opt
+  \ gdiis-zopt
   \ gfn-ff
   \ gfn-xtb
   \ gfn2-xtb
@@ -542,11 +633,17 @@ syn keyword orcaKeywordLineKeyword contained
   \ hav(5+d)z
   \ hav(q+d)z
   \ hav(t+d)z
+  \ hcore
   \ hf
   \ hf-3c
   \ hfs
+  \ hueckel
   \ iglo-ii
   \ iglo-iii
+  \ ignoreconv
+  \ ih-fsmr-ccsd
+  \ iora/ri
+  \ ioramm/ri
   \ irc
   \ jul-cc-pv(d+d)z
   \ jul-cc-pv(q+d)z
@@ -554,7 +651,9 @@ syn keyword orcaKeywordLineKeyword contained
   \ jun-cc-pv(d+d)z
   \ jun-cc-pv(q+d)z
   \ jun-cc-pv(t+d)z
+  \ kdiis
   \ keepdens
+  \ keepints
   \ lanl08
   \ lanl08(f)
   \ lanl2dz
@@ -565,8 +664,14 @@ syn keyword orcaKeywordLineKeyword contained
   \ lc-pbe
   \ lda
   \ led
+  \ loewdin
+  \ looseopt
   \ loosepno
+  \ loosescf
+  \ lpno-ccsd
+  \ lpno-qcisd
   \ lsd
+  \ lshift
   \ m06
   \ m062x
   \ m06l
@@ -594,38 +699,90 @@ syn keyword orcaKeywordLineKeyword contained
   \ ma-zora-def2-tzvp
   \ ma-zora-def2-tzvp(-f)
   \ ma-zora-def2-tzvpp
+  \ mass2016
   \ may-cc-pv(q+d)z
   \ may-cc-pv(t+d)z
+  \ mayer
+  \ md
   \ midi
   \ mini
+  \ miniprint
   \ minis
   \ minix
+  \ mndo
   \ moread
+  \ mp2
+  \ mp2-f12
+  \ mp2-f12-ri
+  \ mp2-f12d-ri
+  \ mp2ri
+  \ mp3
   \ mpw1lyp
   \ mpw1pw
   \ mpw2plyp
   \ mpwlyp
   \ mpwpw
+  \ mracpf
+  \ mraqcc
+  \ mrci
+  \ mrci+q
+  \ mrddci1
+  \ mrddci2
+  \ mrddci3
+  \ mulliken
   \ nbo
+  \ ncpf/1
+  \ nddo/1
+  \ nddo/2
   \ neb-ts
   \ nevpt2
   \ nl
   \ nmr
+  \ noautostart
+  \ nocheapints
   \ nodamp
+  \ nodecontractauxc
+  \ nodecontractauxj
+  \ nodecontractauxjk
+  \ nodecontractbas
+  \ nodiis
   \ nofinalgrid
+  \ nofinalgridx
   \ nofrozencore
   \ noiter
+  \ nokeepdens
+  \ nokeepints
+  \ noloewdin
   \ nolshift
+  \ nomayer
+  \ nomulliken
+  \ nonbo
+  \ nonpa
   \ nopop
+  \ noprintmos
+  \ nopropfile
+  \ noreadints
+  \ noreducedpop
+  \ nori
+  \ normalconv
+  \ normalopt
   \ normalpno
   \ normalprint
+  \ normalscf
+  \ nosmear
   \ nososcf
+  \ nosplit-ri-j
+  \ notrah
+  \ nousesym
   \ npa
   \ nrscf
   \ numfreq
   \ numgrad
+  \ numnacme
   \ o3lyp
   \ olyp
+  \ oo-ri-mp2
+  \ oo-ri-scs-mp2
   \ opt
   \ optts
   \ pal4
@@ -659,9 +816,12 @@ syn keyword orcaKeywordLineKeyword contained
   \ pcsseg-2
   \ pcsseg-3
   \ pcsseg-4
+  \ pdbfile
   \ pm3
+  \ pmodel
   \ printbasis
   \ printgap
+  \ printmos
   \ printthermochem
   \ pw1pw
   \ pw6b95
@@ -669,6 +829,12 @@ syn keyword orcaKeywordLineKeyword contained
   \ pwlda
   \ pwp
   \ pwpb95
+  \ qcisd
+  \ qcisd(t)
+  \ qcisd(t)-f12
+  \ qcisd(t)-f12/ri
+  \ qcisd-f12
+  \ qcisd-f12/ri
   \ qm/hf-3c
   \ qm/hf-3c/mm
   \ qm/pbeh-3c
@@ -686,6 +852,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ qzvp
   \ qzvpp
   \ r2scan-3c
+  \ readints
+  \ reducedpop
   \ reduceprint
   \ revpbe
   \ revpbe0
@@ -695,7 +863,9 @@ syn keyword orcaKeywordLineKeyword contained
   \ ri-b2plyp
   \ ri-caspt2
   \ ri-caspt2-k
+  \ ri-dcd-cas(2)
   \ ri-dsd-pbeb95
+  \ ri-j-xc
   \ ri-jk
   \ ri-mp2
   \ ri-nevpt2
@@ -705,6 +875,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ rijdx
   \ rijk
   \ rks
+  \ rohf
   \ roks
   \ rpbe
   \ rpw86pbe
@@ -727,10 +898,18 @@ syn keyword orcaKeywordLineKeyword contained
   \ saug-ano-pvdz
   \ saug-ano-pvqz
   \ saug-ano-pvtz
+  \ sc-nevpt2
   \ scanfunc
   \ scants
+  \ scfconv10
+  \ scfconv6
+  \ scfconv7
+  \ scfconv8
+  \ scfconv9
   \ scnl
   \ scs-b2gp-plyp21
+  \ scs-mp2
+  \ scs-mp3
   \ scs-pbe-qidh
   \ scs-rsx-qidh
   \ scs-wb2gp-plyp
@@ -738,17 +917,26 @@ syn keyword orcaKeywordLineKeyword contained
   \ scs-wpbepp86
   \ scs/sos-b2plyp21
   \ scs/sos-wb2plyp
+  \ sloppyscf
   \ slowconv
   \ smallprint
+  \ smear
+  \ somf(1x)
+  \ sorci
   \ sos-b2gp-plyp21
   \ sos-pbe-qidh
   \ sos-rsx-qidh
   \ sos-wb2gp-plyp
   \ sos-wb88pp86
   \ sos-wpbepp86
+  \ soscf
   \ sp
+  \ split-ri-j
+  \ splitj
+  \ steom-ccsd
   \ steom-dlpno-ccsd
   \ sto-3g
+  \ strongscf
   \ sv
   \ sv(p)
   \ sv/j
@@ -759,14 +947,21 @@ syn keyword orcaKeywordLineKeyword contained
   \ tpss
   \ tpss0
   \ tpssh
+  \ trah
   \ tzv
   \ tzv(p)
   \ tzvp
   \ tzvpp
+  \ ucdouble
+  \ ucfloat
   \ uco
   \ uhf
   \ uks
   \ uno
+  \ usesym
+  \ veff(-2x)-soc
+  \ veff-soc
+  \ veryslowconv
   \ verytightopt
   \ verytightscf
   \ vwn
@@ -813,7 +1008,12 @@ syn keyword orcaKeywordLineKeyword contained
   \ xtb2
   \ xtbff
   \ xyzfile
+  \ zeff-zsoc
+  \ zindo/1
+  \ zindo/2
+  \ zindo/s
   \ zoom-neb-ts
+  \ zopt
   \ zora
   \ zora-def2-qzvpp
   \ zora-def2-sv(p)
@@ -821,6 +1021,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ zora-def2-tzvp
   \ zora-def2-tzvp(-f)
   \ zora-def2-tzvpp
+  \ zora/ri
 
 hi def link orcaKeywordLineKeyword Function
 " }}}
