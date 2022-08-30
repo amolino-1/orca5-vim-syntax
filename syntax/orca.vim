@@ -19,6 +19,7 @@ syn keyword orcaInputBlockVariable contained
 \ CIStep
 \ ConvDer
 \ CoorSys
+\ D4Step
 \ DEle
 \ Density
 \ DIISMaxEq
