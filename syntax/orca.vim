@@ -60,6 +60,7 @@ syn keyword orcaInputBlockVariable contained
 \ InitHess
 \ InLineW
 \ IRoot
+\ JRoot
 \ LaserE
 \ Lines
 \ LineW
@@ -110,6 +111,7 @@ syn keyword orcaInputBlockVariable contained
 \ Scale_Init_Displ
 \ Scaling
 \ SCFMode
+\ SF
 \ SMD
 \ SMDSolvent
 \ SpecRange
@@ -134,6 +136,7 @@ syn keyword orcaInputBlockVariable contained
 \ UF_Dele
 \ UFFreqErr
 \ Unit
+\ UnrelaxedPop
 \ UseB
 \ UseJ
 \ VThresh
