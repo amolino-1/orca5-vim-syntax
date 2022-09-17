@@ -499,6 +499,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ cfloat
   \ cheapints
   \ cim
+  \ ci-opt
   \ conv
   \ copt
   \ cpcm
