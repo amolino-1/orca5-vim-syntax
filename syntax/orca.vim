@@ -32,6 +32,7 @@ syn keyword orcaInputBlockVariable contained
 \ DoSOC
 \ DoSolv
 \ DoStoreSTEOM
+\ DoSTEOMNatTransOrb
 \ DSOC
 \ DSS
 \ DTensor
