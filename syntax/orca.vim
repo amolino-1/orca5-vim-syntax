@@ -93,7 +93,7 @@ syn keyword orcaInputBlockVariable contained
 \ OThresh
 \ PreOpt
 \ Pressure
-\ Print[ P_FragPopMO_M  ] 1
+\ Print
 \ PrintLevel
 \ PrintWF
 \ Product
