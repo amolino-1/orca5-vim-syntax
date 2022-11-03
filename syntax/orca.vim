@@ -17,9 +17,13 @@ syn keyword orcaInputBlockVariable contained
 \ Charge_Medium
 \ Charge_Total
 \ CIStep
+\ CIType
 \ ConvDer
 \ CoorSys
 \ D4Step
+\ D3TPre
+\ D4TPre
+\ DavidsonOpt
 \ DEle
 \ Density
 \ DIISMaxEq
@@ -86,6 +90,7 @@ syn keyword orcaInputBlockVariable contained
 \ NProcs
 \ NRoots
 \ NRootsCISNat
+\ nThresh
 \ NTOStates
 \ NTOThresh
 \ Nuclei
@@ -117,6 +122,7 @@ syn keyword orcaInputBlockVariable contained
 \ SF
 \ SMD
 \ SMDSolvent
+\ SmearTemp
 \ SpecRange
 \ SpecRes
 \ States
