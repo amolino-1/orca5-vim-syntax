@@ -9,9 +9,11 @@ syn case ignore
 syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaInputBlockVariable,orcaSubBlock transparent
 
 syn keyword orcaKeywordOptions contained
+" ESD Block
 \ VG
 \ Gauss
-
+" CASSCF
+\ TEST
 
 syn match orcaKeywordOptions /print *\[[^\[\]]*\]/ contained
 hi def link orcaKeywordOptions Type
