@@ -8,6 +8,13 @@ syn case ignore
 " Input Block {{{
 syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaInputBlockVariable,orcaSubBlock transparent
 
+syn keyword orcaKeywordBoolean contained
+\ True
+\ False
+
+syn match orcaKeywordBoolean /print *\[[^\[\]]*\]/ contained
+hi def link orcaKeywordBoolean Boolean
+
 syn keyword orcaKeywordOptions contained
 \ ABS
 \ Fluor
