@@ -163,7 +163,7 @@ hi def link orcaInputBlockMarker Keyword
 hi def link orcaInputBlockVariable Function
 
 " Blocks Within Input Blocks {{{
-syn region orcaBlockWithinInputBlock matchgroup=orcaInputBlockMarker start=/^ *\(Constraints\|NewBlock\|\Refs|Scan\)/ end=/^ *end$/ contained transparent
+syn region orcaBlockWithinInputBlock matchgroup=orcaInputBlockMarker start=/^ *\(Constraints\|NewBlock\|Refs\|Scan\)/ end=/^ *end$/ contained transparent
 
 " }}}
 "
