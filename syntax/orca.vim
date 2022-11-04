@@ -6,7 +6,7 @@ setlocal iskeyword+=-,/,%,+,*,(,),,
 syn case ignore
 
 " Input Block {{{
-syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaInputBlockVariable,orcaBlockWithinInputBlock transparent
+syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaInputBlockVariable,orcaSubBlock transparent
 
 syn keyword orcaInputBlockVariable contained
 \ ActiveAtoms
@@ -163,7 +163,7 @@ hi def link orcaInputBlockMarker Keyword
 hi def link orcaInputBlockVariable Function
 
 " Blocks Within Input Blocks {{{
-syn region orcaBlockWithinInputBlock matchgroup=orcaInputBlockMarker start=/^ *\(Constraints\|NewBlock\|Refs\|Scan\)/ end=/^ *end$/ contained transparent
+syn region orcaSubBlock matchgroup=orcaInputBlockMarker start=/^ *\(AddAuxCGTO\|AddAuxGTO\|AddAuxJGTO\|AddAuxJKGTO\|AddCABSGTO\|AddGTO\|Constraints\|Coords\|CustomFragInter\|DIIS\|DMRG\|Damp\|NewAuxCGTO\|NewAuxGTO\|NewAuxJGTO\|NewAuxJKGTO\|NewBlock\|NewCABSGTO\|NewECP\|NewGTO\|NewNCore\|PTSettings\|ROHFOP\|Refs\|Rel\|Rotate\|SOC\|SOSCFStart\|Scan\|Shift\|Stab\|TMag\|TRAH\|UpdateShift\)/ end=/^ *end$/ contained transparent
 
 " }}}
 "
