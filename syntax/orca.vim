@@ -81,6 +81,7 @@ syn keyword orcaInputBlockVariable contained
 \ NDav
 \ NEB_End_XYZFile
 \ nEl
+\ NewBlock
 \ NewECP
 \ NewGTO
 \ NImages
@@ -109,6 +110,7 @@ syn keyword orcaInputBlockVariable contained
 \ ReCalc_Hess
 \ ReducePrint
 \ Refrac
+\ Refs
 \ Rorder
 \ Rotate
 \ RRIntens
@@ -135,9 +137,11 @@ syn keyword orcaInputBlockVariable contained
 \ TDip
 \ TDipScaling
 \ Temp
+\ TPre
 \ TPrint
 \ TrafoStep
 \ Trust
+\ TSel
 \ TS
 \ TS_Active_Atoms
 \ TS_Active_Atoms_Factor
