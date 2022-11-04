@@ -42,6 +42,7 @@ syn keyword orcaInputBlockVariable contained
 \ DTensor
 \ DTol
 \ ECP
+\ end
 \ Epsilon
 \ ESDFlag
 \ ESHessian
