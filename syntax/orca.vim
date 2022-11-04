@@ -1044,7 +1044,6 @@ syn keyword orcaKeywordLineKeyword contained
   \ zora-def2-tzvp(-f)
   \ zora-def2-tzvpp
   \ zora/ri
-  \ MRDDCI3
 
 hi def link orcaKeywordLineKeyword Function
 " }}}
