@@ -215,6 +215,7 @@ syn keyword orcaInputBlockVariable contained
 \ DoRootWise
 \ DoSOC
 \ DoSolv
+\ DoSSC
 \ DoStoreSTEOM
 \ DoSTEOMNatTransOrb
 \ DSOC
