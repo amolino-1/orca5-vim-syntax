@@ -820,6 +820,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ fic-mrcc
   \ fic-mrci
   \ fic-nevpt2
+  \ flat-neb-ts
   \ float
   \ fod
   \ forceconv
@@ -1138,6 +1139,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ splitj
   \ steom-ccsd
   \ steom-dlpno-ccsd
+  \ steomsoc
   \ sto-3g
   \ strongscf
   \ sv
