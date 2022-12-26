@@ -289,6 +289,7 @@ syn keyword orcaInputBlockVariable contained
 \ QM2Atoms
 \ QM2CustomMethod
 \ QMAtoms
+\ RangeSepMu
 \ ReCalc_Hess
 \ ReducePrint
 \ Refrac
