@@ -17,7 +17,6 @@ syn keyword orcaKeywordBoolean contained
 \ None
 \ Off
 \ On
-\ RAM
 \ Read
 \ Shared
 \ Standard
