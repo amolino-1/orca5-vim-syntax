@@ -191,6 +191,7 @@ syn keyword orcaInputBlockVariable contained
 \ ActiveAtoms
 \ ApproxaDen
 \ Basis
+\ BrokenSym
 \ Calc_Hess
 \ CentralDiff
 \ Charge_Medium
