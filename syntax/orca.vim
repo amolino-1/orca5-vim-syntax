@@ -188,6 +188,7 @@ syn match orcaKeywordOptions /print *\[[^\[\]]*\]/ contained
 hi def link orcaKeywordOptions Type
 
 syn keyword orcaInputBlockVariable contained
+\ ACM
 \ ActiveAtoms
 \ AllSingles
 \ ApproxaDen
@@ -314,7 +315,9 @@ syn keyword orcaInputBlockVariable contained
 \ RRTCutDer
 \ RRTCutJ
 \ RTol
+\ RangeSepEXX
 \ RangeSepMu
+\ RangeSepScal
 \ ReCalc_Hess
 \ ReducePrint
 \ Refrac
