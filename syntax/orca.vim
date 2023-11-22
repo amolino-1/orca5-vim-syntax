@@ -21,6 +21,10 @@ syn keyword orcaKeywordBoolean contained
 \ Shared
 \ Standard
 \ True
+\ CenterOfElCharge
+\ CenterOfNucCharge
+\ CenterOfSpinDens
+\ CenterOfMass
 
 syn match orcaKeywordBoolean /print *\[[^\[\]]*\]/ contained
 hi def link orcaKeywordBoolean Boolean
@@ -299,6 +303,7 @@ syn keyword orcaInputBlockVariable contained
 \ OThresh
 \ OptimizeHydrogens
 \ Order
+\ Ori
 \ PTMethod
 \ Partial_Hess
 \ PreOpt
