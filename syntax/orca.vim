@@ -21,6 +21,7 @@ syn keyword orcaKeywordBoolean contained
 \ Shared
 \ Standard
 \ True
+\ CenterOfSpinDens
 
 syn match orcaKeywordBoolean /print *\[[^\[\]]*\]/ contained
 hi def link orcaKeywordBoolean Boolean
