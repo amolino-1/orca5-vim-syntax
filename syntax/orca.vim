@@ -259,6 +259,7 @@ syn keyword orcaInputBlockVariable contained
 \ Hybrid_Hess
 \ IFreqFlag
 \ IRoot
+\ IRootMulti
 \ InHess
 \ InHessName
 \ InLineW
