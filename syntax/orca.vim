@@ -312,6 +312,7 @@ syn keyword orcaInputBlockVariable contained
 \ QM2Atoms
 \ QM2CustomMethod
 \ QMAtoms
+\ Restart
 \ RRIntens
 \ RRSLineW
 \ RRTCutDer
