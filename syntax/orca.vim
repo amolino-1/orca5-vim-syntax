@@ -773,6 +773,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ decontractauxj
   \ decontractauxjk
   \ decontractbas
+  \ def2-mtzvp
   \ def2-qzvp
   \ def2-qzvp/c
   \ def2-qzvpd
