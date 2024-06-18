@@ -332,6 +332,7 @@ syn keyword orcaInputBlockVariable contained
 \ SF
 \ SMD
 \ SMDSolvent
+\ SOSCFMaxIt
 \ STDA
 \ SameFreq
 \ Scale_Init_Displ
