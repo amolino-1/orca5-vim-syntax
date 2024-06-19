@@ -274,6 +274,7 @@ syn keyword orcaInputBlockVariable contained
 \ MaxDim
 \ MaxDisk
 \ MaxIter
+\ MaxStep
 \ MaxTime
 \ Method
 \ MoInp
