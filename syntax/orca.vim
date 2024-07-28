@@ -6,7 +6,7 @@ setlocal iskeyword+=-,/,%,+,*,(,),,
 syn case ignore
 
 " Input Block {{{
-syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaKeywordBoolean,orcaInputBlockVariable,orcaSubBlock transparent
+syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|solvator\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaKeywordBoolean,orcaInputBlockVariable,orcaSubBlock transparent
 
 syn keyword orcaKeywordBoolean contained
 \ All
@@ -49,6 +49,7 @@ syn keyword orcaKeywordOptions contained
 \ CVW
 \ CanonOrbs
 \ Cart
+\ CEH
 \ Cholesky
 \ Cholesky_Q
 \ Conv
@@ -68,6 +69,7 @@ syn keyword orcaKeywordOptions contained
 \ Direct2
 \ Direct3
 \ DoubleShell
+\ EEQ
 \ Efficient
 \ Electrostatic
 \ Extreme
@@ -155,6 +157,7 @@ syn keyword orcaKeywordOptions contained
 \ SSandSO
 \ SemiDirect
 \ Sloppy
+\ Stochastic
 \ Strong
 \ SuperCI
 \ SuperCI_PT
@@ -205,6 +208,7 @@ syn keyword orcaInputBlockVariable contained
 \ Charge
 \ Charge_Medium
 \ Charge_Total
+\ ClusterMode
 \ ConnectFragments
 \ ConstrainFragments
 \ ConvDer
@@ -234,9 +238,12 @@ syn keyword orcaInputBlockVariable contained
 \ DoSingles
 \ DoSolv
 \ DoStoreSTEOM
+\ DRACO
+\ draco_charges
 \ ECP
 \ ESDFlag
 \ ESHessian
+\ ETemp
 \ ETol
 \ EWin
 \ Epsilon
@@ -253,6 +260,8 @@ syn keyword orcaInputBlockVariable contained
 \ GeomStep
 \ Guess
 \ GuessMode
+\ Guest
+\ GuestCharge
 \ HessFlag
 \ Hess_Filename
 \ Hess_Internal
@@ -290,8 +299,11 @@ syn keyword orcaInputBlockVariable contained
 \ NLb
 \ NPoints
 \ NProcs
+\ NProcs_Groups
+\ NRepeatGuest
 \ NRoots
 \ NRootsCISNat
+\ NSolv
 \ NTOStates
 \ NTOThresh
 \ NewBlock
@@ -304,6 +316,7 @@ syn keyword orcaInputBlockVariable contained
 \ Ori
 \ PTMethod
 \ Partial_Hess
+\ Polar
 \ PreOpt
 \ Pressure
 \ Print
@@ -381,6 +394,7 @@ syn keyword orcaInputBlockVariable contained
 \ nEl
 \ nOrb
 \ nThresh
+\ XTBInputString
 
 syn match orcaInputBlockVariable /print *\[[^\[\]]*\]/ contained
 
@@ -742,6 +756,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ ci-opt
   \ conv
   \ copt
+  \ cosmors
   \ cpcm
   \ cpcm(acetone)
   \ cpcm(acetonitrile)
@@ -839,7 +854,9 @@ syn keyword orcaKeywordLineKeyword contained
   \ dlpno-nevpt2
   \ dlpno-scs-mp2
   \ dmrg
+  \ docker
   \ double
+  \ draco
   \ dsd-blyp
   \ dsd-pbeb95
   \ dsd-pbep86
@@ -879,6 +896,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ gfn-xtb
   \ gfn2-xtb
   \ glyp
+  \ goat
   \ hav(5+d)z
   \ hav(q+d)z
   \ hav(t+d)z
