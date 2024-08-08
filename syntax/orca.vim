@@ -1109,7 +1109,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ qm/qm2
   \ qm/qm2/mm
   \ qm/r2scan-3c
-  \ qm/r2scan-3c/,,
+  \ qm/r2scan-3c
   \ qm/xtb
   \ qm/xtb/mm
   \ qm/xtb1
@@ -1118,7 +1118,11 @@ syn keyword orcaKeywordLineKeyword contained
   \ qm/xtb2/mm
   \ qzvp
   \ qzvpp
+  \ r2scan
   \ r2scan-3c
+  \ r2scanh
+  \ r2scan0
+  \ r2scan50
   \ readints
   \ reducedpop
   \ reduceprint
@@ -1240,15 +1244,19 @@ syn keyword orcaKeywordLineKeyword contained
   \ wb2gp-plyp
   \ wb2plyp
   \ wb88pp86
+  \ wr2scan
+  \ wb97x-3c
   \ wb97
   \ wb97m-d3bj
   \ wb97m-d4
+  \ wb97m-d4rev
   \ wb97m-v
   \ wb97x
   \ wb97x-2
   \ wb97x-d3
   \ wb97x-d3bj
   \ wb97x-d4
+  \ wb97x-d4rev
   \ wb97x-v
   \ wpbepp86
   \ x2c-qzvpall
