@@ -752,8 +752,8 @@ syn keyword orcaKeywordLineKeyword contained
   \ cepa/1
   \ cfloat
   \ cheapints
-  \ cim
   \ ci-opt
+  \ cim
   \ conv
   \ copt
   \ cosmors
@@ -776,6 +776,23 @@ syn keyword orcaKeywordLineKeyword contained
   \ cpcm(thf)
   \ cpcm(toluene)
   \ cpcm(water)
+  \ cpcmx
+  \ cpcmx(acetonitrile)
+  \ cpcmx(benzene)
+  \ cpcmx(ccl4)
+  \ cpcmx(ch2cl2)
+  \ cpcmx(chloroform)
+  \ cpcmx(cyclohexane)
+  \ cpcmx(dmf)
+  \ cpcmx(dmso)
+  \ cpcmx(ethanol)
+  \ cpcmx(hexane)
+  \ cpcmx(methanol)
+  \ cpcmx(octanol)
+  \ cpcmx(pyridine)
+  \ cpcmx(thf)
+  \ cpcmx(toluene)
+  \ cpcmx(water)
   \ cpf/1
   \ d2
   \ d3bj
@@ -785,6 +802,20 @@ syn keyword orcaKeywordLineKeyword contained
   \ d95p
   \ damp
   \ dcd-cas(2)
+  \ ddcosmo(acetone)
+  \ ddcosmo(acetonitrile)
+  \ ddcosmo(benzene)
+  \ ddcosmo(ch2cl2)
+  \ ddcosmo(chloroform)
+  \ ddcosmo(dmf)
+  \ ddcosmo(dmso)
+  \ ddcosmo(ethanol)
+  \ ddcosmo(hexane)
+  \ ddcosmo(methanol)
+  \ ddcosmo(octanol)
+  \ ddcosmo(thf)
+  \ ddcosmo(toluene)
+  \ ddcosmo(water)
   \ decontract
   \ decontractauxc
   \ decontractauxj
@@ -1120,9 +1151,9 @@ syn keyword orcaKeywordLineKeyword contained
   \ qzvpp
   \ r2scan
   \ r2scan-3c
-  \ r2scanh
   \ r2scan0
   \ r2scan50
+  \ r2scanh
   \ readints
   \ reducedpop
   \ reduceprint
@@ -1244,8 +1275,6 @@ syn keyword orcaKeywordLineKeyword contained
   \ wb2gp-plyp
   \ wb2plyp
   \ wb88pp86
-  \ wr2scan
-  \ wb97x-3c
   \ wb97
   \ wb97m-d3bj
   \ wb97m-d4
@@ -1253,12 +1282,14 @@ syn keyword orcaKeywordLineKeyword contained
   \ wb97m-v
   \ wb97x
   \ wb97x-2
+  \ wb97x-3c
   \ wb97x-d3
   \ wb97x-d3bj
   \ wb97x-d4
   \ wb97x-d4rev
   \ wb97x-v
   \ wpbepp86
+  \ wr2scan
   \ x2c-qzvpall
   \ x2c-qzvpall-2c
   \ x2c-qzvpall-s
