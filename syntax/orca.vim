@@ -938,6 +938,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ hf
   \ hf-3c
   \ hfs
+  \ hirshfeld
   \ hueckel
   \ iglo-ii
   \ iglo-iii
