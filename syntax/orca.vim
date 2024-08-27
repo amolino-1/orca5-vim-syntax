@@ -316,6 +316,7 @@ syn keyword orcaInputBlockVariable contained
 \ Ori
 \ PTMethod
 \ Partial_Hess
+\ PictureChange
 \ Polar
 \ PreOpt
 \ Pressure
@@ -357,6 +358,7 @@ syn keyword orcaInputBlockVariable contained
 \ States
 \ StepConstr
 \ StepScaling
+\ StorageLevel
 \ SurfaceType
 \ SwitchStep
 \ TCutFreq
@@ -1313,6 +1315,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ x2c-tzvppall-2c
   \ x2c-tzvppall-s
   \ x2c/j
+  \ x2c
   \ x3lyp
   \ xlyp
   \ xtb1
