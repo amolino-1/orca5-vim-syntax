@@ -227,6 +227,7 @@ syn keyword orcaInputBlockVariable contained
 \ Density
 \ DirectResetFreq
 \ Direction
+\ DLU
 \ DoDIDplot
 \ DoHT
 \ DoNTO
@@ -278,6 +279,7 @@ syn keyword orcaInputBlockVariable contained
 \ Irrep
 \ JRoot
 \ LaserE
+\ LightAtomThresh
 \ LineW
 \ Lines
 \ MaxDim
@@ -889,6 +891,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ dlpno-mp2-f12/d
   \ dlpno-nevpt2
   \ dlpno-scs-mp2
+  \ dlu-x2c
   \ dmrg
   \ docker
   \ double
