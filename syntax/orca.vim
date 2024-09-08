@@ -304,7 +304,7 @@ syn keyword orcaInputBlockVariable contained
 \ NLb
 \ NPoints
 \ NProcs
-\ NProcs_Groups
+\ NProcs_Group
 \ NRepeatGuest
 \ NRoots
 \ NRootsCISNat
