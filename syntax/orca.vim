@@ -228,6 +228,9 @@ syn keyword orcaInputBlockVariable contained
 \ DirectResetFreq
 \ Direction
 \ DLU
+\ DoDipoleLength
+\ DoDipoleVelocity
+\ DoHigherMoments
 \ DoDIDplot
 \ DoHT
 \ DoNTO
