@@ -6,7 +6,7 @@ setlocal iskeyword+=-,/,%,+,*,(,),,
 syn case ignore
 
 " Input Block {{{
-syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|solvator\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaKeywordBoolean,orcaInputBlockVariable,orcaSubBlock transparent
+syn region orcaInputBlock matchgroup=orcaInputBlockMarker start=/^% *\(autoci\|basis\|casscf\|cipsi\|cim\|cis\|compound\|coords\|cpcm\|docker\|elprop\|eprnmr\|esd\|freq\|geom\|loc\|irc\|mcrpa\|md\|mdci\|method\|mp2\|mrcc\|mrci\|neb\|numgrad\|nbo\|output\|pal\|paras\|plots\|qmmm\|rel\|rocis\|rr\|scf\|solvator\|symmetry\|tddft\|xtb\)/ end=/^end$/ contains=orcaLineComment,orcaEmbeddedComment,orcaKeywordOptions,orcaKeywordBoolean,orcaInputBlockVariable,orcaSubBlock transparent
 
 syn keyword orcaKeywordBoolean contained
 \ All
@@ -896,7 +896,6 @@ syn keyword orcaKeywordLineKeyword contained
   \ dlpno-scs-mp2
   \ dlu-x2c
   \ dmrg
-  \ docker
   \ double
   \ draco
   \ dsd-blyp
