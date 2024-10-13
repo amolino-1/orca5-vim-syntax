@@ -244,6 +244,7 @@ syn keyword orcaInputBlockVariable contained
 \ DoStoreSTEOM
 \ DRACO
 \ draco_charges
+\ DX
 \ ECP
 \ ESDFlag
 \ ESHessian
@@ -373,6 +374,7 @@ syn keyword orcaInputBlockVariable contained
 \ TDipScaling
 \ TPre
 \ TPrint
+\ TransInvar
 \ TS
 \ TSHessian
 \ TS_Active_Atoms
