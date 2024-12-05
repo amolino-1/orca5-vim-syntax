@@ -301,6 +301,7 @@ syn keyword orcaInputBlockVariable contained
 \ NBOKeyList
 \ NDav
 \ NEB_End_XYZFile
+\ NEB_TS_XYZFile
 \ NImages
 \ NLb
 \ NPoints
