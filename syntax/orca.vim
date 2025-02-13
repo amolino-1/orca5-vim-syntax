@@ -362,6 +362,8 @@ syn keyword orcaInputBlockVariable contained
 \ SmearTemp
 \ SpecRange
 \ SpecRes
+\ StabPerform
+\ StabRestartUHFifUnstable
 \ States
 \ StepConstr
 \ StepScaling
@@ -1249,6 +1251,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ sp
   \ split-ri-j
   \ splitj
+  \ stability
   \ steom-ccsd
   \ steom-dlpno-ccsd
   \ steomsoc
