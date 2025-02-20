@@ -786,6 +786,7 @@ syn keyword orcaKeywordLineKeyword contained
   \ cpcm(hexane)
   \ cpcm(methanol)
   \ cpcm(octanol)
+  \ cpcm(pentane)
   \ cpcm(pyridine)
   \ cpcm(thf)
   \ cpcm(toluene)
