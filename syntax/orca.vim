@@ -370,6 +370,7 @@ syn keyword orcaInputBlockVariable contained
 \ StorageLevel
 \ SurfaceType
 \ SwitchStep
+\ Tau
 \ TCutFreq
 \ TCutPNOSingles
 \ TDA
